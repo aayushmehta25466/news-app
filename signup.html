@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-teal-100 flex items-center justify-center min-h-screen relative">
+    <div class="absolute left-0 bottom-0 transform -translate-x-1/2 translate-y-1/2 z-0">
+        <img alt="Illustration of a man in a suit" class="h-48" src="https://placehold.co/150x300" />
+    </div>
+    <div class="bg-white p-10 rounded-lg shadow-lg z-10 relative">
+        <h1 class="text-3xl font-semibold mb-6 text-center">Create an account</h1>
+        <form>
+            <div class="mb-4">
+                <label class="block relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input class="pl-10 pr-4 py-2 w-full border rounded bg-gray-200" placeholder="Username" type="text"/>
+                </label>
+            </div>
+            <div class="mb-4">
+                <label class="block relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input class="pl-10 pr-4 py-2 w-full border rounded bg-gray-200" placeholder="Email" type="email"/>
+                </label>
+            </div>
+            <div class="mb-6">
+                <label class="block relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <input class="pl-10 pr-4 py-2 w-full border rounded bg-gray-200" placeholder="Password" type="password"/>
+                </label>
+            </div>
+            <button class="w-full py-2 bg-gray-200 border rounded text-center" type="submit">Log in</button>
+        </form>
+        <p class="mt-4 text-center">
+            Already have an account?
+            <a class="text-red-500" href="#">Sign in</a>
+        </p>
+    </div>
+</body>
+</html>
